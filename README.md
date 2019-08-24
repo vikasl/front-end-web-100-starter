@@ -4,6 +4,9 @@ This is a project created for the Front-End Web 100 Class.
 
 It is a starter project that has WebPack installed, and the Babel loader, as well as loaders for CSS.
 
+It is configured to allow [TypeScript](http://www.typescriptlang.org/). It also is using [TSLint](https://palantir.github.io/tslint/), with the rules that we use for Angular development.
+
+
 ## Some Commands
 
 This project uses NPM scripts, configured in the `package.json` file.

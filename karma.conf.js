@@ -5,17 +5,17 @@ module.exports = (config) => {
         frameworks: ['jasmine', 'karma-typescript'],
 
         files: [
-            { pattern: 'spec/*_spec.js', watched: false },
-            { pattern: 'spec/**/*_spec.js', watched: false },
-          { pattern: 'spec/*_spec.ts', watched: false },
-            { pattern: 'spec/**/*_spec.ts', watched: false }
+            { pattern: 'spec/*.spec.js', watched: false },
+            { pattern: 'spec/**/*.spec.js', watched: false },
+          { pattern: 'spec/*.spec.ts', watched: false },
+            { pattern: 'spec/**/*.spec.ts', watched: false }
         ],
 
         preprocessors: {
-            'spec/*_spec.js': ['webpack', 'sourcemap'],
-            'spec/**/*_spec.js': ['webpack', 'sourcemap'],
-            'spec/*_spec.ts': ['webpack', 'sourcemap'],
-            'spec/**/*_spec.ts': ['webpack', 'sourcemap']
+            'spec/*.spec.js': ['webpack', 'sourcemap'],
+            'spec/**/*.spec.js': ['webpack', 'sourcemap'],
+            'spec/*.spec.ts': ['webpack', 'sourcemap'],
+            'spec/**/*.spec.ts': ['webpack', 'sourcemap']
         },
 
         webpack,
