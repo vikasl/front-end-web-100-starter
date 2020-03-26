@@ -28,3 +28,6 @@ These commands should be run in the root directory of this project from a termin
 
 `npm run build`
 
+```
+slack channel: https://join.slack.com/t/few100mar2020/shared_invite/zt-d5lt35on-jgB~rHm9qCw9pPsqe7kQkQ
+```
