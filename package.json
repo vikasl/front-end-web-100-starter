@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@types/jasmine": "^3.5.0",
+    "cuid": "^2.1.8",
     "karma-jasmine-html-reporter": "^1.5.4"
   }
 }
